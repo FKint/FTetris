@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{58280CA6-4E5E-43BA-A78C-36DDE3B62AF1}</ProjectGuid>
+    <RootNamespace>FTetris</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\own programs\source\FTetris\Lib\freetype\include;F:\own programs\source\FTetris\Lib\freetype\include\freetype2;F:\own programs\source\FTetris\Lib\freeglut\include;C:\Program Files %28x86%29\GnuWin32\include\freetype2;C:\Program Files %28x86%29\GnuWin32\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\own programs\source\FTetris\Lib\freetype\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files\GnuWin32\include\freetype2;C:\Program Files\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>freetype.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>C:\Program Files\GnuWin32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\Program Files\GnuWin32\include\freetype2;C:\Program Files\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <PreprocessorDefinitions>NDEBUG;_LIB;FREEGLUT_LIB_PRAGMAS=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>freetype.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>F:\own programs\source\FTetris\Lib\freetype\lib;F:\own programs\source\FTetris\Lib\freeglut\lib;C:\Program Files\GnuWin32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>freeglut.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="FColor.cpp" />
+    <ClCompile Include="FCommandListener.cpp" />
+    <ClCompile Include="FGame.cpp" />
+    <ClCompile Include="FGameUI.cpp" />
+    <ClCompile Include="FGL2DDrawObject.cpp" />
+    <ClCompile Include="FGLDrawObject.cpp" />
+    <ClCompile Include="FGLLine.cpp" />
+    <ClCompile Include="FGLPoint.cpp" />
+    <ClCompile Include="FGLQuad.cpp" />
+    <ClCompile Include="FreeType.cpp" />
+    <ClCompile Include="FreeTypeCommandText.cpp" />
+    <ClCompile Include="FreeTypeText.cpp" />
+    <ClCompile Include="FScene.cpp" />
+    <ClCompile Include="FTextureLoader.cpp" />
+    <ClCompile Include="FUserInputListener.cpp" />
+    <ClCompile Include="FVertex.cpp" />
+    <ClCompile Include="AboutScene.cpp" />
+    <ClCompile Include="BaseMenuScene.cpp" />
+    <ClCompile Include="ControlsScene.cpp" />
+    <ClCompile Include="FTetris.cpp" />
+    <ClCompile Include="FTetrisBlockSet.cpp" />
+    <ClCompile Include="FTetrisCube.cpp" />
+    <ClCompile Include="FTetrisField.cpp" />
+    <ClCompile Include="FTetrisGameController.cpp" />
+    <ClCompile Include="FTetrisGameField.cpp" />
+    <ClCompile Include="FTetrisPreField.cpp" />
+    <ClCompile Include="FTetrisScene.cpp" />
+    <ClCompile Include="HighScoresScene.cpp" />
+    <ClCompile Include="IntroScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FColor.h" />
+    <ClInclude Include="FCommandListener.h" />
+    <ClInclude Include="FGame.h" />
+    <ClInclude Include="FGameUI.h" />
+    <ClInclude Include="FGL2DDrawObject.h" />
+    <ClInclude Include="FGLDrawObject.h" />
+    <ClInclude Include="FGLLine.h" />
+    <ClInclude Include="FGLPoint.h" />
+    <ClInclude Include="FGLQuad.h" />
+    <ClInclude Include="FreeType.h" />
+    <ClInclude Include="FreeTypeCommandText.h" />
+    <ClInclude Include="FreeTypeText.h" />
+    <ClInclude Include="FScene.h" />
+    <ClInclude Include="FTextureLoader.h" />
+    <ClInclude Include="FUserInputListener.h" />
+    <ClInclude Include="FVertex.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="AboutScene.h" />
+    <ClInclude Include="BaseMenuScene.h" />
+    <ClInclude Include="ControlsScene.h" />
+    <ClInclude Include="FTetris.h" />
+    <ClInclude Include="FTetrisBlockSet.h" />
+    <ClInclude Include="FTetrisCube.h" />
+    <ClInclude Include="FTetrisField.h" />
+    <ClInclude Include="FTetrisGameController.h" />
+    <ClInclude Include="FTetrisGameField.h" />
+    <ClInclude Include="FTetrisPreField.h" />
+    <ClInclude Include="FTetrisScene.h" />
+    <ClInclude Include="HighScoresScene.h" />
+    <ClInclude Include="IntroScene.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FTetris.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\devresources\logo1.ico" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

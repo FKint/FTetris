@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FTetris">
+</Property><Property Name="Solution File" Value="H:\WORKSPACE\FTetris\FTetris.sln">
+</Property><Property Name="User Options File" Value="H:\WORKSPACE\FTetris\FTetris.suo">
+</Property><Property Name="Date" Value="zondag 10 oktober 2010">
+</Property><Property Name="Time" Value="19:49">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FTetris.sln" Description="File successfully backed up as H:\WORKSPACE\FTetris\FTetris.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="FTetris.suo" Description="File successfully backed up as H:\WORKSPACE\FTetris\FTetris.suo.old">
+</Event><Event ErrorLevel="0" Project="FTetris" Source="FTetris\FTetris.vcproj" Description="Converting project file 'H:\WORKSPACE\FTetris\FTetris\FTetris.vcproj'.">
+</Event><Event ErrorLevel="1" Project="FTetris" Source="FTetris\FTetris.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="FTetris" Source="FTetris\FTetris.vcproj" Description="Done converting to new project file 'H:\WORKSPACE\FTetris\FTetris\FTetris.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="FTetris" Source="FTetris\FTetris.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FTetris.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FTetris.sln" Description="Converted">
+</Event></UpgradeLog>

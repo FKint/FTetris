@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{a9a43631-8b12-45e7-8c2d-3977e9c5b9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FTetris">
+      <UniqueIdentifier>{872f8883-6c47-4e75-a6f7-78258f3d2e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{a453550b-e76c-4523-8e31-00c0ab797f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FTetris">
+      <UniqueIdentifier>{e1f3fede-0d92-4dd0-9e04-9b2ca120dc1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FColor.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FCommandListener.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FGame.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FGameUI.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FGL2DDrawObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FGLDrawObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FGLLine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FGLPoint.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FGLQuad.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeType.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeTypeCommandText.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeTypeText.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FScene.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FTextureLoader.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FUserInputListener.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="FVertex.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutScene.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMenuScene.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlsScene.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="FTetris.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="FTetrisBlockSet.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="FTetrisCube.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="FTetrisField.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="FTetrisGameController.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="FTetrisGameField.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="FTetrisPreField.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="FTetrisScene.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScoresScene.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Source Files\FTetris</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FColor.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FCommandListener.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FGame.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FGameUI.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FGL2DDrawObject.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FGLDrawObject.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FGLLine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FGLPoint.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FGLQuad.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeType.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeTypeCommandText.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeTypeText.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FScene.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FTextureLoader.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FUserInputListener.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="FVertex.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutScene.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenuScene.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlsScene.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="FTetris.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="FTetrisBlockSet.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="FTetrisCube.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="FTetrisField.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="FTetrisGameController.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="FTetrisGameField.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="FTetrisPreField.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="FTetrisScene.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoresScene.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\FTetris</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FTetris.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\devresources\logo1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
